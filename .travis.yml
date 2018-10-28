@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: christopher.andrejewski@gmail.com
+  api_key:
+    secure: dEZYc9cDdk81dsChL+BbEs0KEJCDfZomw76QKggMG7z8dV6f+J4/fVxbquYL4ItSg2ewJVLTxIvV8FgwJGmymHC5QAUoPtil1A2XlP0xIUPBTOgD/cibv0MKM3y8yRJNWlEK9vQlnR9/GC+ppqgzqrKylaamk2A1WjafyRWDTc5hyXNh0fAThG3/lFcLhHT9urHwv4U2OwdVoibeuKLBKDHT/t9v3H4udBOcDkdGAiOfueoimerhcZyIlldM4RdmFcwkJJC5dePWo/zeASS2dlS3d2I7OwKWmbft888IPo6GguHiv5ZgWF6rq0g7bvUMlVOquxt9AfKZZg/ERlLEtenQhwcmlC8lUuMKAPv87kbrmkJAIWdMneHLiMkX0SeatMN8HgTIPrmt4/LIuFgQSDRa8jRAMkr+eVhtk9QO00cXjMnfPUjoMpPTX8M97et2qVHDYZwVE9gNRQASfa2HQEoM/8Gh2A5EDsox8mBrXdmw/lGU2DFYt21nj+CNnQabgj82z8Ov8dgKG0dmfjniECYTVPSM2CjL32z+t7k/OxfgFUkoh610FEbrwveeAPr0E9EpE5isk/X3ZjPHkw273qisA39QxGs2rocotaTBW3hppZXTWShcKKAZ4MnOJQXs66fVINdRKGSKqR85qzbHNc+kcSIm+gtXgQ2ZcW10q2U=
+  on:
+    tags: true
+    repo: andrejewski/throw-return
+  skip_cleanup: true
+  
